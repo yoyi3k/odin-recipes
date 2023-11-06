@@ -1,25 +1,40 @@
 * {
-    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+body {
     font-family:Arial, Helvetica, sans-serif;
+    background-color: #E3D4AD;
+}
+
+.card{
+    width: 400px;
+    
+    background-color: #A71930;
+    margin: 16px auto;
+    padding: 8px;
 }
 
 .header1 {
-    color: antiquewhite;
-    background-color: black;
+    color: black;
+    background-color: #E3D4AD;
     font-size: 36px;
+    margin: auto;
+    text-align: center
 }
 
 .header3 {
-    color: blanchedalmond;
+    margin: auto;
+    color: #E3D4AD;
     background-color: black;
+    padding: 8px;
+    text-align: center;
 }
 
 p {
     font-size: 18px;
-}
-
-.class {
-    font-size: 14px;
+    background-color: #E3D4AD;
+    padding: 8px;
 }
 
 .center {
@@ -29,3 +44,17 @@ p {
     list-style-position: inside;
 }
 
+button{
+    margin: 8px auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 300px;
+    display:block;
+    
+}
+
+img {
+    display: block;
+    margin: 8px auto;
+    border: solid 5px #E3D4AD;
+}
